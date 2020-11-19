@@ -1,0 +1,8 @@
+type Sport{
+    id : ID 
+    name : String 
+}
+
+type Query{
+    getSports (name : String ): Sport
+}
